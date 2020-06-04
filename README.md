@@ -1,0 +1,1 @@
+Pagos en linea en una aplicación web, a través de Stripe. Stripe es un servicio web que te ayuda a aceptar tarjetas de créditos de tus usuarios y provee una API fácil de integrar.
