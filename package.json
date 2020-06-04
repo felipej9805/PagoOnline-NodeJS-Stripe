@@ -1,0 +1,27 @@
+{
+  "name": "PagoOnline-NodeJS-Stripe",
+  "version": "1.0.0",
+  "description": "Pagos en linea en una aplicación web, a través de Stripe. Stripe es un servicio web que te ayuda a aceptar tarjetas de créditos de tus usuarios y provee una API fácil de integrar.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipej9805/PagoOnline-NodeJS-Stripe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipej9805/PagoOnline-NodeJS-Stripe/issues"
+  },
+  "homepage": "https://github.com/felipej9805/PagoOnline-NodeJS-Stripe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
