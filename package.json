@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/felipej9805/PagoOnline-NodeJS-Stripe.git"
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/felipej9805/PagoOnline-NodeJS-Stripe#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4"
+    "express-handlebars": "^4.0.4",
+    "stripe": "^8.60.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

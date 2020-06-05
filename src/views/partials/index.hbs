@@ -3,16 +3,26 @@
         <div class="card">
             <img src="software.jpg" alt="Windows 10 Software" class="card-img-top">
             <div class="card-body">
+                <h3>40 USD</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos enim sed nihil veritatis qui.
                 </p>
             </div>
             <div class="card-footer">
-                <button class="btn btn-dark btn-block">
-                    Buy <i class="fas fa-shopping-cart"></i>
-
-
-                </button>
+                <!--datamount en centavos de dolar, 30USD serian 3000-->
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_51GqW6WKZFg7mmPnYCdwmf2JI3ujujx3tAqKiESwBV9gfO7PJAHxorsPhzMDSGetwAKFMOsAdiejz40H4qqxP5m2Z00q8R0pBdV"
+                        data-amount="3000" data-name="Software Store" data-description="Windows 10 Software"
+                        data-image="/logo.jpg" data-locale="auto">
+                        </script>
+                        <script>
+                            document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                        </script>
+                    <button class="btn btn-dark btn-block">
+                        Buy <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </form>
             </div>
         </div>
 
