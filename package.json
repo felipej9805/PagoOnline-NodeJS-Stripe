@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/felipej9805/PagoOnline-NodeJS-Stripe#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.4",
     "stripe": "^8.60.0"
   },
